@@ -112,3 +112,15 @@ h2 {
     text-align: center;
     margin-top: 1rem;
 }
+
+.section-three q {
+    font-size: 2rem;
+    display: block;
+    font-style: italic;
+    text-align: center;
+}
+
+.section-three p {
+    font-size: 2rem;
+    text-align: end;
+}
