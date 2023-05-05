@@ -24,6 +24,7 @@ a:hover {
 
 body {
     background-color: var(--primary-color);
+    color: black;
     display: flex;
     flex-direction: column;
     font-family: var(--font-family);
@@ -87,7 +88,7 @@ nav ul {
 
 .section-one-image-section img {
     border-radius: 1rem;
-    border: 1px solid silver;
+    border: 1px solid var(--accent-color);
     display: block;
     height: 350px;
     margin: 0 auto;
@@ -112,7 +113,7 @@ h2 {
 
 .section-two-card img {
     border-radius: 1rem;
-    border: 1px solid silver;
+    border: 1px solid var(--accent-color);
     display: block;
     height: 350px;
     margin: 0 auto;
@@ -126,6 +127,8 @@ h2 {
 }
 
 .section-three {
+    background-color: rgb(255, 149, 165);
+    border-radius: 1rem;
     padding: 1rem;
 }
 
